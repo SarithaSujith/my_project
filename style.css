@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: raleway;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+ .nav ul {
+ margin: 0;   
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    padding: .7em;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+.nav a:hover {
+    background-color: rgba(255, 255 ,255 ,.4);
+}
+.main-nav {
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: lighter;
+   
+}
+.main-nav li {
+    padding:0 5%;
+}
+.main-header {
+background-image: url("image/indian cooking background 2.jpg");
+background-size: cover;
+padding-bottom: 60px;
+background-blend-mode: multiply;
+}
+.blog-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    color:lavender;
+    border-bottom: 1px solid rgba(255, 255 ,255 ,.4);
+}
+.content-section {
+    margin: 1em;
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 1em;
+
+}
+.section-header {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.biriyani2-image {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+.biriyani-image {
+    float: right;
+    height: 400px;
+    width: 500px;
+    margin: 10px;
+}
+.section-header2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 1.5em;
+}
+.list{
+    align-self: right;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    list-style-position: inside;
+}
+section-header3, section-header4, section-header5, section-header6, section-header7 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 1.5em; 
+}
+.main-footer {
+    background-color:tomato;
+    color:blue;
+    padding: .25em 0;
+}
+.footer-header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 2em; 
+}
+.footer-nav li {
+    padding:0 .5em;
+}
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
